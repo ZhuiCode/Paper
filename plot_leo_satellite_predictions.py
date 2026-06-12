@@ -365,7 +365,7 @@ def main():
     os.makedirs(output_dir, exist_ok=True)
 
     for idx, fig in enumerate(figs, start=1):
-        fig.suptitle(f'生成图 {idx}')
+        #fig.suptitle(f'生成图 {idx}')
         fig_path = os.path.join(output_dir, f'figure_{idx}.png')
         fig.savefig(fig_path, dpi=300, bbox_inches='tight')
         plt.close(fig)
