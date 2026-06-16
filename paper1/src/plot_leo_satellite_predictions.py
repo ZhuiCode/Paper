@@ -10,7 +10,7 @@ from mpl_toolkits.mplot3d import Axes3D
 import warnings
 
 # 配置 Matplotlib 中文字体
-plt.rcParams['font.sans-serif'] = ['SimHei', 'Microsoft YaHei']
+plt.rcParams['font.sans-serif'] = ['SimHei', 'DejaVu Sans']
 plt.rcParams['axes.unicode_minus'] = False
 
 # 压制字体相关的 UserWarning
